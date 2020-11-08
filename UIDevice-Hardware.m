@@ -77,6 +77,11 @@
     if ([modelIdentifier isEqualToString:@"iPhone11,4"])   return @"iPhone XS Max";
     if ([modelIdentifier isEqualToString:@"iPhone11,6"])   return @"iPhone XS Max (China)"; // China dual-sim
     if ([modelIdentifier isEqualToString:@"iPhone11,8"])   return @"iPhone XR";
+    
+    if ([modelIdentifier isEqualToString:@"iPhone13,1"])   return @"iPhone 12 mini";
+    if ([modelIdentifier isEqualToString:@"iPhone13,2"])   return @"iPhone 12";
+    if ([modelIdentifier isEqualToString:@"iPhone13,3"])   return @"iPhone 12 Pro";
+    if ([modelIdentifier isEqualToString:@"iPhone13,4"])   return @"iPhone 12 Pro Max";
 
     // iPad http://theiphonewiki.com/wiki/IPad
 
